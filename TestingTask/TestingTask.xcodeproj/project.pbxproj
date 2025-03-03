@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260A07C52D75D112001D8930 /* Module */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Module; sourceTree = "<group>"; };
 		26730D002D73762600B76192 /* Persistency */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Persistency; sourceTree = "<group>"; };
 		26730D012D7376F800B76192 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		26B339E72D730E3200667ED0 /* TestingTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +66,7 @@
 		26B339DE2D730E3200667ED0 = {
 			isa = PBXGroup;
 			children = (
+				260A07C52D75D112001D8930 /* Module */,
 				26730D012D7376F800B76192 /* Networking */,
 				26730D002D73762600B76192 /* Persistency */,
 				26B33A672D7323AE00667ED0 /* MainScreen */,
