@@ -53,7 +53,7 @@ extension CoreDataManager: CoreDataManagerService {
             userEntity.username = user.username
             userEntity.email = user.email
             
-            if let userAddress = user.adddress {
+            if let userAddress = user.address {
                 let addressEntity = AddressEntity(context: context)
                 addressEntity.street = userAddress.street
                 addressEntity.suite = userAddress.suite

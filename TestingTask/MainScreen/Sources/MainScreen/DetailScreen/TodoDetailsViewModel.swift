@@ -34,14 +34,14 @@ public class TodoDetailsViewModel {
                 DetailItem(title: "Email", value: user?.email ?? "Unknown")
             ],
             [
-                DetailItem(title: "Street", value: user?.adddress?.street ?? "N/A"),
-                DetailItem(title: "Suite", value: user?.adddress?.suite ?? "N/A"),
-                DetailItem(title: "City", value: user?.adddress?.city ?? "N/A"),
-                DetailItem(title: "Zipcode", value: user?.adddress?.zipcode ?? "N/A")
+                DetailItem(title: "Street", value: user?.address?.street ?? "N/A"),
+                DetailItem(title: "Suite", value: user?.address?.suite ?? "N/A"),
+                DetailItem(title: "City", value: user?.address?.city ?? "N/A"),
+                DetailItem(title: "Zipcode", value: user?.address?.zipcode ?? "N/A")
             ],
             [
-                DetailItem(title: "Latitude", value: user?.adddress?.geo?.lat ?? "N/A"),
-                DetailItem(title: "Longitude", value: user?.adddress?.geo?.lng ?? "N/A")
+                DetailItem(title: "Latitude", value: user?.address?.geo?.lat ?? "N/A"),
+                DetailItem(title: "Longitude", value: user?.address?.geo?.lng ?? "N/A")
             ]
         ]
         
