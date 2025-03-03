@@ -17,11 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		266E88742D758ED2002FCB35 /* Module */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Module; sourceTree = "<group>"; };
 		26730D002D73762600B76192 /* Persistency */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Persistency; sourceTree = "<group>"; };
 		26730D012D7376F800B76192 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		26B339E72D730E3200667ED0 /* TestingTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B33A4A2D731DCE00667ED0 /* CoreModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreModule; path = ../../../Downloads/GeographyAppProject/CoreModule; sourceTree = "<group>"; };
 		26B33A672D7323AE00667ED0 /* MainScreen */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MainScreen; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +65,6 @@
 		26B339DE2D730E3200667ED0 = {
 			isa = PBXGroup;
 			children = (
-				266E88742D758ED2002FCB35 /* Module */,
 				26730D012D7376F800B76192 /* Networking */,
 				26730D002D73762600B76192 /* Persistency */,
 				26B33A672D7323AE00667ED0 /* MainScreen */,
@@ -88,7 +85,6 @@
 		26B33A402D731AE300667ED0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26B33A4A2D731DCE00667ED0 /* CoreModule */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
