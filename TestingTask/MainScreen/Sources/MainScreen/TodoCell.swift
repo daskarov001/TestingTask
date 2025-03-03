@@ -55,6 +55,6 @@ class TodoCell: UITableViewCell {
     
     func configure(with todoWithUser: TodoWithUser) {
         titleLabel.text = todoWithUser.todo.title
-        userLabel.text = todoWithUser.user?.name ?? "Unknown User"
+        userLabel.text = todoWithUser.user?.username ?? "Unknown User"
     }
 }
